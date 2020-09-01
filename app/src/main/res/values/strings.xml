@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="search">Search</string>
+    <string name="price_dollar">$%.2f</string>
+    <string name="reviews">%1d reviews</string>
+    <string name="product_image_content_description">Product Image</string>
+    <string name="cart_icon_content_description">Cart Icon</string>
+    <string name="no_connection_error_message">Check your connection and try again.</string>
+    <string name="unexpected_error_message">Something went wrong. Please try again.</string>
+</resources>
