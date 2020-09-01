@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <settings default="ArcTouchCopyright">
+    <module2copyright>
+      <element module="All" copyright="ArcTouchCopyright" />
+    </module2copyright>
+  </settings>
+</component>
