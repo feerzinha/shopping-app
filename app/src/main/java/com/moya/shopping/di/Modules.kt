@@ -17,7 +17,6 @@ private val repositoryModules = module {
     single { ProductRepository(get()) }
 }
 
-
 private val viewModelModules = module {
     viewModel { ProductSearchViewModel(get()) }
 }
@@ -27,7 +26,7 @@ private val networkModules = module {
     single { providesRetrofit(get()) }
     single { provideProductApi(get()) }
 }
-//
+
 fun providesOkHttpClient(context: Context): OkHttpClient = OkHttpClient.Builder()
     .addInterceptor(ConnectivityInterceptor(context))
     .build()

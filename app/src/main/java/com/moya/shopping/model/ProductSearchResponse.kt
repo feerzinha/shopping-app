@@ -8,4 +8,3 @@ data class ProductSearchResponse(
     @SerializedName("products") val items: List<Product> = emptyList(),
     val nextPage: Int? = null
 )
-//TODO: Check if need everything
